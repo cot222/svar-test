@@ -1,0 +1,58 @@
+.header-left {
+    height: 100%;
+    background: rgba(231,234,237, .8);
+    font-size: $font-14;
+    padding-left: 0 !important;
+
+    &:hover {
+        .menu-main {
+            display: block;
+        }
+    }
+    
+    .menu-main {
+        display: none;
+        width: 100%;
+        position: relative;
+        border: 2px solid black;
+
+        .main-item {
+            .menu-first {
+                .first-item {
+                    
+                    &:hover {
+                        .menu-second {
+                            display: block;
+                        }
+                    }
+        
+                    .menu-second {
+                        display: none;
+                        position: absolute;
+                        right: -100%;
+                        bottom: -2px;
+                        width: 100%;
+                        border: 2px solid black;
+                        
+                        .second-item {
+        
+                            .menu-third {
+        
+                                .third-item {
+        
+                                    .menu-four {
+        
+                                        .four-item {
+        
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

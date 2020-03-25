@@ -1,0 +1,13 @@
+.block-header {
+    width: 100%;
+    height: 50px;
+    z-index: 9999;
+
+    .row {
+        height: 100%;
+        background: black;
+        
+        @import "header-left/header-left.scss";
+        @import "header-right/header-right.scss";
+    }
+}
